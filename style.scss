@@ -35,7 +35,38 @@ nav a {
   font-size: 2rem;
 }
 
+.navTitleContainer {
+  position: absolute;
+  left: 80px;
+}
 
+.navTitle {
+  font-size: 4rem;
+  text-decoration: none;
+}
+
+.navLogoContainer {
+  margin: auto 50%;
+  position: absolute;
+}
+
+.logo {
+  position: relative;
+  max-width: 120px;
+}
+
+.navLink {
+  font-size: 2.5rem;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+footer {
+  position: relative;
+  text-align: center;
+  bottom: 10px;
+  border-top: solid #0000004A;
+}
 
 @media screen and (max-width: 750px) {
 
